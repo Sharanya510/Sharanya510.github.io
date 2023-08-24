@@ -86,10 +86,11 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "About"
     image: "/images/sharanya2.png"
     content: |-
-     A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
+     A Masters in Data Science student with 1+ years of academic experience in Python and Machine Learning. 
+     Professional experience of 3 years as a Cloud Engineer. 
      I have a strong interest in the the intersection of Technology and Business.
      
     skills:
@@ -197,7 +198,7 @@ params:
         GPA: "9.2 out of 10.0"
         content: |-
           Extracurricular Activities
-            - Been head of the Design head for the college fest over the period of 4 years.
+            - Been head of the Design team for the college fest over the period of 4 years.
             - Won multiple prizes in the art competition.
             
 
@@ -206,86 +207,75 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: R&D Excellence award
+        content: I was awarded R&D excellence award for the year 2020 for my work on the project Nolo Traffic Manager.
+        
+     
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Acceleration via Intel Optimization for PyTorch
+        content: Demonstrated substantial performance improvement in “resnet50” image classification on the “Fashion MNIST” dataset by accelerating via Intel Optimization for PyTorch and Torchscript. Accomplished an impressive 94.6% reduction in models inference time. Effectively visualized the models performance logs on TensorBoard for comprehensive analysis.
         # image: /images/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/Sharanya510/Acceleration_via_intel_optimization_for_pytorch
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
+      - title: Twitter Sentiment Analysis
+        content: Performed Sentiment Analysis with NLP where live tweets are extracted using Twitter API and pre-processed the tweets to classify tweets as positive, negative, and neutral with an LSTM model.
+        image: /images/profile.png
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Sharanya510/Twitter-sentiment-analysis
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+      - title: Multi Modal Classifier
+        content: Developed a sequential multi-modal deep learning classifier utilizing the Fashion MNIST dataset, achieving a 91.72% accuracy. Successfully transformed the TensorFlow model into TensorFlow Lite format for optimized deployment and conducted inference. Implemented model serving using TensorFlow serving to ensure efficient and reliable predictions.
+        image: /images/profile.png
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Sharanya510/MultiModalClassifier
+
+      - title: House Price Prediction
+        content: Constructed a regression model with the capability to precisely predict property rices through an analysis of their attributes. This process entailed comprehending the dataset, conducting Exploratory Data Analysis(EDA), crafting a Flask web application, and executing its deployment.
+        image: /images/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sharanya510/House_Price_Prediction
+      
+      - title: Mirror Assistant
+        content: Created an application designed to enhance communication skills, particularly for interviews and presentations. This tool functions similar to a mirror, offering feedback on fillers and facial expressions to aid individuals in their practice.
+        image: /images/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sharanya510/MirrorAssistant
+          
+      - title: Smart Meter Management System
+        content: Developed an application using MERN. Performed C.R.U.D operation on IoT devices. Generates bills in a building based on a pay-as-you-use model.
+        image: /images/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sharanya510/MirrorAssistant
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: sharanya.gandla05@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
-
+  # footer:
+  #   recentPosts: false
+  #   socialNetworks:
+  #     github: https://github.com/sharanya510
+  #     linkedin: https://www.linkedin.com/in/sharanya-gandla-4097a7188/
   footer:
     recentPosts:
       path: "blogs"
@@ -294,36 +284,33 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/sharanya510
+      linkedin: https://www.linkedin.com/in/sharanya-gandla-4097a7188/
 
   # List pages like blogs and posts
-  listPages:
-    disableFeaturedImage: false
+  # listPages:
+  #   disableFeaturedImage: false
 
   # Single pages like blog and post
-  singlePages:
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
+  # singlePages:
+  #   readTime:
+  #     enable: true
+  #     content: "min read"
+  #   scrollprogress:
+  #     enable: true
 
   # For translations
-  terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
+  # terms:
+  #   read: "Read"
+  #   toc: "Table Of Contents"
+  #   copyright: "All rights reserved"
+  #   pageNotFound: "Page not found"
+  #   emailText: "Check out this site"
 
-  datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+  # datesFormat:
+  #   article: "Jan 2, 2006"
+  #   articleList: "Jan 2, 2006"
+  #   articleRecent: "Jan 2, 2006"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
