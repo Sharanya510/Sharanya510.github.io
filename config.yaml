@@ -87,7 +87,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "https://drive.google.com/file/d/1W5296Z_u5KpvvthJc270Woz_iWw5RY6M/view?usp=sharing"
+    image: "/images/sharanya2.png"
     content: |-
      A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
      I have a strong interest in the the intersection of Technology and Business.
@@ -196,10 +196,6 @@ params:
         date: "2015 - 2019"
         GPA: "9.2 out of 10.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
           Extracurricular Activities
             - Been head of the Design head for the college fest over the period of 4 years.
             - Won multiple prizes in the art competition.
@@ -234,7 +230,7 @@ params:
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/profile.png
+        # image: /images/profile.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
