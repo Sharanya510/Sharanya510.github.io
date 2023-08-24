@@ -70,7 +70,7 @@ params:
     title: "Sharanya Gandla."
     subtitle: "Graduate student at San Jose State University"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: "https://drive.google.com/file/d/1W5296Z_u5KpvvthJc270Woz_iWw5RY6M/view?usp=sharing"
+    image: "/images/profile.png"
     button:
       enable: true
       name: "Resume"
