@@ -68,7 +68,9 @@ params:
     intro: "Hi there! I am "
     title: "Sharanya Gandla."
     subtitle: "Graduate student at San Jose State University"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    content: "A passionate graduate student who loves exploring latest technologies, building POCs and incorporating them into existing products.
+    I really enjoy painting, baking and photography.
+    I live in San Jose, California, USA."
     image: "/images/profile.png"
     button:
       enable: true
@@ -82,6 +84,7 @@ params:
           url: https://github.com/sharanya510
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/sharanya-gandla-4097a7188/
+        
 
   # About
   about:
@@ -89,16 +92,20 @@ params:
     title: "About"
     image: "/images/sharanya2.png"
     content: |-
-     A Masters in Data Science student with 1+ years of academic experience in Python and Machine Learning. 
-     Professional experience of 3 years as a Cloud Engineer. 
+     Currently looking for Full-time opportunities. Pursuing master's degree in Data Science with 3 years of professional experience as a Software Engineer at NCR Corporation, Hyderabad, India. 
      I have a strong interest in the the intersection of Technology and Business.
      
     skills:
       enable: true
       title: "Skills:"
       items:
-        - "Python, R, SQL, Spark in Databricks, Sci-Kit Learn, MLops, AWS"
-        - "Mentorship, Multi-Cultural Fluency, Team Player"
+        - "Programming Languages: C, C++, Python, Unix/Linux, GoLang, HTML, CSS, YAML, JSON, XML, Bash, Powershell, JavaScript"
+        - "Databases: MySQL, Microsoft SQL server, MongoDB"
+        - "Machine Learning Tools: Pandas, Numpy, TensorFlow, PyTorch, TensorFlow Serving, Sci-Kit learn, Keras"
+        - "Tools and software: Jenkins, Terraform, Site 24x7, Sensu, Apigee, Rundeck, Docker, Kubernetes, Helm, Vault, Git, Github Actions, Chef, ArgoCD, Artifactory, Bitbucket, Postman, Kibana, Elastic Search, Matlab, Tableau, Grafana, Prometheus"
+        - "Cloud : Microsoft Azure, GCP, AWS, Heroku"
+        - "Certifications: AZ 900 - Microsoft Azure Fundamentals, Getting started with GKE by Coursera, GCP fundamentals"
+        # - "Leadership: "Mentorship, Multi-Cultural Fluency, Team Player"
 
   # Experience
   experience:
