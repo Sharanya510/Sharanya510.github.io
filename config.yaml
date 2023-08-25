@@ -101,10 +101,9 @@ params:
       items:
         - "Programming Languages: C, C++, Python, Unix/Linux, GoLang, HTML, CSS, YAML, JSON, XML, Bash, Powershell, JavaScript"
         - "Databases: MySQL, Microsoft SQL server, MongoDB"
-        # - "Machine Learning Tools: Pandas, Numpy, TensorFlow, PyTorch, TensorFlow Serving, Sci-Kit learn, Keras"
-        # - "Tools and software: Jenkins, Terraform, Site 24x7, Sensu, Apigee, Rundeck, Docker, Kubernetes, Helm, Vault, Git, Github Actions, Chef, ArgoCD, Artifactory, Bitbucket, Postman, Kibana, Elastic Search, Matlab, Tableau, Grafana, Prometheus"
-        # - "Cloud : Microsoft Azure, GCP, AWS, Heroku"
-        # - "Certifications: AZ 900 - Microsoft Azure Fundamentals, Getting started with GKE by Coursera, GCP fundamentals"
+        - "Machine Learning Tools: Pandas, Numpy, TensorFlow, PyTorch, TensorFlow Serving, Sci-Kit learn, Keras"
+        - "Tools and software: Jenkins, Terraform, Site 24x7, Sensu, Apigee, Rundeck, Docker, Kubernetes, Helm, Vault, Git, Github Actions, Chef, ArgoCD, Artifactory, Bitbucket, Postman, Kibana, Elastic Search, Matlab, Tableau, Grafana, Prometheus"
+        # - "Cloud: Microsoft Azure, GCP, AWS, Heroku"
         # - "Leadership: "Mentorship, Multi-Cultural Fluency, Team Player"
 
   # Experience
