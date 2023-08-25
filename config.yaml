@@ -101,10 +101,10 @@ params:
       items:
         - "Programming Languages: C, C++, Python, Unix/Linux, GoLang, HTML, CSS, YAML, JSON, XML, Bash, Powershell, JavaScript"
         - "Databases: MySQL, Microsoft SQL server, MongoDB"
-        - "Machine Learning Tools: Pandas, Numpy, TensorFlow, PyTorch, TensorFlow Serving, Sci-Kit learn, Keras"
-        - "Tools and software: Jenkins, Terraform, Site 24x7, Sensu, Apigee, Rundeck, Docker, Kubernetes, Helm, Vault, Git, Github Actions, Chef, ArgoCD, Artifactory, Bitbucket, Postman, Kibana, Elastic Search, Matlab, Tableau, Grafana, Prometheus"
-        - "Cloud : Microsoft Azure, GCP, AWS, Heroku"
-        - "Certifications: AZ 900 - Microsoft Azure Fundamentals, Getting started with GKE by Coursera, GCP fundamentals"
+        # - "Machine Learning Tools: Pandas, Numpy, TensorFlow, PyTorch, TensorFlow Serving, Sci-Kit learn, Keras"
+        # - "Tools and software: Jenkins, Terraform, Site 24x7, Sensu, Apigee, Rundeck, Docker, Kubernetes, Helm, Vault, Git, Github Actions, Chef, ArgoCD, Artifactory, Bitbucket, Postman, Kibana, Elastic Search, Matlab, Tableau, Grafana, Prometheus"
+        # - "Cloud : Microsoft Azure, GCP, AWS, Heroku"
+        # - "Certifications: AZ 900 - Microsoft Azure Fundamentals, Getting started with GKE by Coursera, GCP fundamentals"
         # - "Leadership: "Mentorship, Multi-Cultural Fluency, Team Player"
 
   # Experience
@@ -226,42 +226,42 @@ params:
     items:
       - title: Acceleration via Intel Optimization for PyTorch
         content: Demonstrated substantial performance improvement in “resnet50” image classification on the “Fashion MNIST” dataset by accelerating via Intel Optimization for PyTorch and Torchscript. Accomplished an impressive 94.6% reduction in models inference time. Effectively visualized the models performance logs on TensorBoard for comprehensive analysis.
-        # image: /images/profile.png
+        image: /images/acceleration.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/Acceleration_via_intel_optimization_for_pytorch
 
       - title: Twitter Sentiment Analysis
         content: Performed Sentiment Analysis with NLP where live tweets are extracted using Twitter API and pre-processed the tweets to classify tweets as positive, negative, and neutral with an LSTM model.
-        image: /images/profile.png
+        image: /images/twitter.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/Twitter-sentiment-analysis
 
       - title: Multi Modal Classifier
         content: Developed a sequential multi-modal deep learning classifier utilizing the Fashion MNIST dataset, achieving a 91.72% accuracy. Successfully transformed the TensorFlow model into TensorFlow Lite format for optimized deployment and conducted inference. Implemented model serving using TensorFlow serving to ensure efficient and reliable predictions.
-        image: /images/profile.png
+        image: /images/multimodal.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/MultiModalClassifier
 
       - title: House Price Prediction
         content: Constructed a regression model with the capability to precisely predict property rices through an analysis of their attributes. This process entailed comprehending the dataset, conducting Exploratory Data Analysis(EDA), crafting a Flask web application, and executing its deployment.
-        image: /images/profile.png
+        image: /images/house.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/House_Price_Prediction
       
       - title: Mirror Assistant
         content: Created an application designed to enhance communication skills, particularly for interviews and presentations. This tool functions similar to a mirror, offering feedback on fillers and facial expressions to aid individuals in their practice.
-        image: /images/profile.png
+        image: /images/mirror.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/MirrorAssistant
           
       - title: Smart Meter Management System
         content: Developed an application using MERN. Performed C.R.U.D operation on IoT devices. Generates bills in a building based on a pay-as-you-use model.
-        image: /images/profile.png
+        image: /images/smartmeter.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/MirrorAssistant
