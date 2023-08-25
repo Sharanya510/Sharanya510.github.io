@@ -71,7 +71,7 @@ params:
     content: "A passionate graduate student who loves exploring latest technologies, building POCs and incorporating them into existing products.
     I really enjoy painting, baking and photography.
     I live in San Jose, California, USA."
-    image: "/images/profile.png"
+    image: "/images/sharanya1.png"
     button:
       enable: true
       name: "Resume"
