@@ -93,7 +93,7 @@ params:
     image: "/images/sharanya2.png"
     content: |-
      Currently looking for Full-time opportunities. Pursuing master's degree in Data Science with 3 years of professional experience as a Software Engineer at NCR Corporation, Hyderabad, India. 
-     I have a strong interest in the the intersection of Technology and Business.
+     Seeking to work at the intersection of Technology and Business.
      
     skills:
       enable: true
@@ -285,12 +285,12 @@ params:
   #     linkedin: https://www.linkedin.com/in/sharanya-gandla-4097a7188/
   
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/sharanya510
       linkedin: https://www.linkedin.com/in/sharanya-gandla-4097a7188/
