@@ -263,7 +263,7 @@ params:
         image: /images/smartmeter.png
         links:
           - icon: fab fa-github
-            url: https://github.com/Sharanya510/SmartMeterManagementSystem
+            url: https://github.com/Sharanya510/House_Price_Prediction
 
   #Contact
   contact:
