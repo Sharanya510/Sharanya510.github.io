@@ -75,7 +75,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1CgYYh4STUXIE46UNY7KgTw54De9jTHS_/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1ZT2cUwP2zS1amhiPlEWVYxuN1TFTvb5Q/view?usp=drive_link"
       download: true
       newPage: true
     socialLinks:
@@ -92,7 +92,7 @@ params:
     title: "About"
     image: "/images/sharanya2.png"
     content: |-
-     Currently looking for Full-time opportunities. Pursuing master's degree in Data Science with 3 years of professional experience as a Software Engineer at NCR Corporation, Hyderabad, India. 
+     Currently looking for Full-time opportunities. Pursuing master's degree in Data Science with 2.5 years of professional experience as a Software Engineer at NCR Corporation, Hyderabad, India. 
      Seeking to work at the intersection of Technology and Business.
      
     skills:
@@ -142,7 +142,7 @@ params:
           - Designed a synthetic monitoring system leveraging site 24x7, incorporating a selenium recorder to simulate User Flow and API functionality. Integrated with pagerduty for real-time notifications, reducing incident response time by 40%.
           - Created container Images using Docker, registry management, container orchestration, demonstrated by successfully writing, pushing, and testing images on Docker Hub, and Azure Container Registry for efficient application deployment.
           - Migrated all repositories from Jenkins to GitHub Actions, utilizes YAML for defining workflows, leading to faster builds and deployments.
-          - Implemented the rolling update strategy in Kubernetes to enable seamless updates of the NOLO application without causing any downtime.
+          - Implemented the rolling update strategy in Kubernetes to enable seamless updates of the NOLO application without causing any downtime. Used to orchestrate the deployment, scaling and management of Docker Containers.
 
 
       - job: "Software Engineer Intern"
@@ -255,14 +255,14 @@ params:
             url: https://github.com/Sharanya510/House_Price_Prediction
       
       - title: Mirror Assistant
-        content: Created an application designed to enhance communication skills, particularly for interviews and presentations. This tool functions similar to a mirror, offering feedback on fillers and facial expressions to aid individuals in their practice.
+        content: An application that will assess your spoken words, hand gestures, and facial expressions, providing immediate feedback and delivering a comprehensive summary of your performance once you deliver a speech. Performed comprehensive background analysis by utilizing OpenCV, TensorFlow, Google Cloud’s Speech-to-text API and implemented Flask for the Backend. For the Frontend, used ReactJS and incorporated the Formidable Victory Library to display real-time data visualizations.
         image: /images/mirror.png
         links:
           - icon: fab fa-github
             url: https://github.com/Sharanya510/MirrorAssistant
           
       - title: Smart Meter Management System
-        content: Developed an application using MERN. Performed C.R.U.D operation on IoT devices. Generates bills in a building based on a pay-as-you-use model.
+        content: Developed a full-stack web app using MongoDB, NodeJS, ExpressJS serving as a RESTful API with React as Frontend. Deployed Backend server on Heroku.  Generates bills in a building based on a pay-as-you-use model.
         image: /images/smartmeter.png
         links:
           - icon: fab fa-github
